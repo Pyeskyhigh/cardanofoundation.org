@@ -1,5 +1,5 @@
 <head>
-<title>{{ page.title }} {{ site.title }}</title>
+<title>{% if page.title != 'home' %}{{ page.title }}{% endif %} {{ site.title }}</title>
 <meta charset="utf-8">
 
 <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">

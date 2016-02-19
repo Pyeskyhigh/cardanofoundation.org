@@ -31,11 +31,11 @@ en:
     home_sale_only:  Sale is only available to Japanese customers
     sales_partner: Sales Partner
     goals: Goals
-    goal_protect: "To Protect, Enhance and Evolve the Cardano Ecosystem"
-    goal_act: "To Act as a Cryptocurrency Standards Body"
-    goal_study: "To Study, Propose and Enact Cryptocurrency Regulation"
-    goal_serve: "To Serve as an Objective Organization for Enterprises to Join"
-    goal_educate: "To Aggregate, Educate and Grow the Cardano Community"
+    goal_protect: "To Protect, Enhance and <br>Evolve the Cardano Ecosystem"
+    goal_act: "To Act as a Cryptocurrency<br> Standards Body"
+    goal_study: "To Study, Propose and Enact<br> Cryptocurrency Regulation"
+    goal_serve: "To Serve as an Objective Organization<br> for Enterprises to Join"
+    goal_educate: "To Aggregate, Educate <br>and Grow the Cardano Community"
     partnership_structure: Partnership structure
     structure_gaming: Cardano Gaming Group
     structure_gaming_desc: Game Development and White Label Solutions Partner
