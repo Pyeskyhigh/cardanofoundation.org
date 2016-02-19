@@ -1,0 +1,214 @@
+---
+layout: page-home
+---       
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div id="main-body">
+          
+      <section id="about" class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 text-center">
+              <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
+
+                  <h2 class="uppercase title">{{ site.data.i18n[page.language].about_us }}</h2>
+                  <hr class="sm" />
+
+                  {{ page.txt_about }}
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="margin0" />
+
+      <section id="news" class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 text-center ">
+
+              <h2 class=" title">{{ site.data.i18n[page.language].subscribe_to_nl }}</h2>
+
+              <div class="row">
+                <br>
+                <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3">
+
+                  <form action=""  class="sendpress-signup" method="post">
+                    <input type="hidden" name="nr" value="widget"/>
+                    <input type="hidden" name="sp_list" id="" class="sp_list" value="51" />
+
+                    <div class="exists" style="display:none;">You've already signed up, Thanks!</div>
+                    <div class="error"></div>
+                    <div class="thanks" style="display:none;">Check your inbox now to confirm your subscription.</div>
+                    <div class="form-wrap">
+                      <div class="input-group">
+                          <input placeholder="your@email.com"  class="sp_email form-control" type="email" required name="sp_email" value="">
+                          <span class="input-group-btn">
+                              <button class="btn btn-default" type="submit">{{ site.data.i18n[page.language].subscribe }} <img class="ajaxloader" style="display:none;"  src="{{ '/images/ic_top_shield.gif' | prepend: site.baseurl }}ajax-loader.gif" /></button>
+                          </span>
+                      </div><!-- /input-group -->
+                    </div>
+                  </form>
+
+                </div><!-- /.col-lg-6 -->
+              </div><!-- /.row -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="margin0" />
+
+      <section id="features" class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 text-center">
+
+              <h2 class="uppercase title">{{ site.data.i18n[page.language].goals }}</h2>
+              <hr class="sm" />
+
+              <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-6 feature">
+                    <img src="{{ '/images/ic_globe.jpg' | prepend: site.baseurl }}" width="65" height="65" />
+                    <p class="bold">{{ site.data.i18n[page.language].goal_protect }}</p>
+                </div>
+                <div class="col-lg-5 col-sm-6 feature">
+                    <img src="{{ '/images/ic_logo.jpg' | prepend: site.baseurl }}" width="65" height="65" />
+                    <p class="bold">{{ site.data.i18n[page.language].goal_act }}</p>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-lg-4 col-sm-4 feature">
+                    <img src="{{ '/images/ic_study.gif' | prepend: site.baseurl }}" width="65" height="65" />
+                    <p class="bold">{{ site.data.i18n[page.language].goal_study }}</p>
+                </div>
+                <div class="col-lg-4 col-sm-4 feature">
+                    <img src="{{ '/images/ic_serve.gif' | prepend: site.baseurl }}" width="65" height="65" />
+                    <p class="bold">{{ site.data.i18n[page.language].goal_serve }}</p>
+                </div>
+                <div class="col-lg-4 col-sm-4 feature">
+                    <img src="{{ '/images/ic_bulb.gif' | prepend: site.baseurl }}" width="65" height="65" />
+                    <p class="bold">{{ site.data.i18n[page.language].goal_educate }}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="margin0" />
+
+      <section id="structure" class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 text-center">
+              <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+                  <h2 class="uppercase title">{{ site.data.i18n[page.language].goal_educate }}</h2>
+                  <hr class="sm" />
+
+                  <div class="tree">
+                      <div class="branch left"></div>
+                      <img src="{{ '/images/cf_label.gif' | prepend: site.baseurl }}" width="178" height="52" alt="" />
+                      <div class="branch right"></div>
+                  </div>
+
+                  <div class="row branches">
+
+                    <div class="col-sm-4">
+                      <img src="{{ '/images/ic_logo_2.gif' | prepend: site.baseurl }}" width="70" height="70" />
+                      <h3>Cardano Gaming Group</h3>
+
+                      <hr class="sm" />
+                      <p>{{ site.data.i18n[page.language].structure_gaming_desc }}</p>
+                    </div>
+                    
+                    <div class="col-sm-4">
+                      <div class="branch"></div>
+                      <br />
+                      <img src="{{ '/images/ic_iohk.gif' | prepend: site.baseurl }}" width="125" height="90" />
+
+                     <h3>Input Output</h3>
+                      <hr class="sm" />
+                      <p>{{ site.data.i18n[page.language].structure_io_desc }}</p>
+                    </div>
+
+                    <div class="col-sm-4">
+                      <img src="{{ '/images/ic_shield.gif' | prepend: site.baseurl }}" width="70" height="70" />
+
+                      <h3>Attain Corporation</h3>
+                      <hr class="sm" />
+                      <p>{{ site.data.i18n[page.language].structure_attain_desc }}</p>
+                    </div>
+                  </div>
+
+                  <br><br>
+                  <p class="bigger light">{{ site.data.i18n[page.language].becoming_partner }}</p>
+                  <a href="/#contact" class="btn btn-default btn-sm uppercase c_fff bg_trans">&nbsp; &nbsp; {{ site.data.i18n[page.language].contact_us }} &nbsp; &nbsp;</a><br><br>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="margin0" />
+
+      <section id="team" class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 text-center">
+
+              <h2 class="uppercase title">{{ site.data.i18n[page.language].executive_team }}</h2>
+              <hr class="sm" />
+              {% include slider-team.html %}
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="margin0" />
+
+      <section id="contact" class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 ">
+              <div class="map_label">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <h4 class="uppercase">{{ site.data.i18n[page.language].visit_us }}</h4>
+                    First Floor, Millennium House, <br>Victoria Road, Douglas, <br>Isle of Man, IM2 4RW  <br> <br>
+                  </div>
+                  <div class="col-lg-6">
+                    <h4 class="uppercase">{{ site.data.i18n[page.language].contact }}</h4>
+                    <a href="#">info@cardanofoundation.org</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+        
+    </div><!-- /#main-body -->
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
