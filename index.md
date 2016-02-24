@@ -5,8 +5,6 @@ language: en
 permalink: /
 defaulturl: /
 slug: home
-txt_about: The Cardano Foundation is an Isle of Man based not-for-profit Foundation established in 2015. The Foundation aspires to act as an objective, governing body for the Cardano Ecosystem and its many protocols, projects and regulatory concerns as well as a place for the Cardano community to aggregate and collaborate. Our long term goal is to build bridges between the Cardano community and larger sectors, particularly financial services and the gaming industry.
+txt_about: Cardano Foundation (“The Foundation”) is an Isle of Man based organisation established in 2015. The Foundation is dedicated to act as an objective, supervisory and educational body for the Cardano Ecosystem and its many protocols, projects and regulatory outreach and a place for the Cardano community to aggregate and collaborate. Our long-term vision is to build bridges between the Cardano community and diverse business sectors.
 
 ---
-<h1><span class="highlight">Cascading Disruption</span></h1>
-<hr class="sm" />
