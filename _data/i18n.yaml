@@ -20,7 +20,7 @@ en:
     careers: Careers
     contact: Contact
     contact_us: Contact us
-    visit_us: Visit us
+    visit_us: Located at
     team: Team
     news: News
     chairman: Chairman
@@ -33,7 +33,7 @@ en:
     goals: Goals
     goal_protect: "To Protect, Enhance and <br>Evolve the Cardano Ecosystem"
     goal_act: "To Act as a Cryptocurrency<br> Standards Body"
-    goal_study: "To Study & propose <br>Cryptocurrency Regulationn"
+    goal_study: "To Study & Propose <br>Cryptocurrency Regulation"
     goal_serve: "To Serve as an Objective Organization<br> for Enterprises to Join"
     goal_educate: "To Aggregate, Educate <br>and Grow the Cardano Community"
     partnership_structure: Cardano foundation partners
@@ -44,7 +44,7 @@ en:
     structure_attain: Attain Corporation
     structure_attain_desc: Exclusive Exchange Partner
     becoming_partner: Interested in Becoming a Partner?
-    executive_team: Executive Team
+    executive_team: "Chairman & Special Advisers"
 
 ja:
     name: 名
