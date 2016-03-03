@@ -22,7 +22,7 @@
                   <img src="{{ '/images/team/Parsons.jpg' | prepend: site.baseurl }}" width="350" height="350" class="img-circle" />
               </div>
               <div class="col-lg-6 col-md-6 text-left">
-                  <h2 class="uppercase">Michael Parsons FCA</h2>
+                  <h2 class="uppercase">{% if page.language == 'ja' %}Michael Parsons FCA{% else %}MICHAEL PARSONS - FCA 理事長{% endif %}</h2>
                   <h4 class="uppercase big bold">{{ site.data.i18n[page.language].chairman }}</h4>
                   <div class="social_icons">
                       <a class="linkedin" href="https://uk.linkedin.com/in/michaelparsons" target="_blank"><em class="fa fa-linkedin"></em></a>                                        

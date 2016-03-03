@@ -12,6 +12,7 @@ en:
     your_cv: Your CV
     subscribe: Subscribe
     subscribe_to_nl: Subscribe to our Newsletter
+    your_email: your@email
     subscribe_to_nl_desc: Subscribe to our newsletter and get all the foundation updates.
     rights: All Rights Reserved
     home: Home
@@ -45,6 +46,7 @@ en:
     structure_attain_desc: Exclusive Exchange Partner
     becoming_partner: Interested in Becoming a Partner?
     executive_team: "Chairman & Special Advisers"
+    special_adviser: Special Adviser
 
 ja:
     name: 名
@@ -58,39 +60,41 @@ ja:
     submit_application: 申請書を提出
     apply_now: 今すぐ申し込みます！
     your_cv: あなたの履歴書
-    subscribe: 申し込む
-    subscribe_to_nl: ニュースレターの購読
-    subscribe_to_nl_desc: ニュースレターを購読し、すべての基礎の更新プログラムを入手
+    subscribe: 登録する
+    subscribe_to_nl: 財団からのニュースを受け取る
+    your_email: メールアドレスを入力して下さい
+    subscribe_to_nl_desc: ニュースレターに登録し、財団に関する最新情報を受け取る。
     rights: 全著作権所有
     home: ホーム
-    about: IOHKについて
-    about_us: 私たちに関しては
+    about: 財団について
+    about_us: 財団について
     careers: 求人
     contact: 連絡先
     contact_us: お問い合わせ
-    visit_us: 私たちをご覧ください
+    visit_us: 所在地
     team: チーム
     news: ニュース
     chairman: 会長
     founder: 創業者
     founders: ファウンダーズ
-    home_of: カルダーノプロトコルのホーム
+    home_of: カルダノ財団
     home_desc: エイダの販売の第二トランシェが始まりました。あなたの詳細については、販売代理店を達成しご連絡ください。
     home_sale_only:  販売は、日本のお客様にのみご利用いただけます
     sales_partner: 販売パートナー
-    goals: 目標
-    goal_protect: "カルダーノ生態系を保護強化と進化を"
-    goal_act: "Cryptocurrency標準化団体として機能するように"
-    goal_study: "勉強し、提案と制定Cryptocurrency規制"
-    goal_serve: "企業が参加するための客観的組織として機能します"
-    goal_educate: "カルダーノコミュニティを、集計教育と成長します"
-    partnership_structure: パートナーシップ構造
+    goals: 活動目的
+    goal_protect: "カルダノ・エコシステムの保護、<br>促進、発展に参与する。"
+    goal_act: "暗号通貨の一つの標準となる。"
+    goal_study: "暗号通貨に関連する規制の調査、<br>定義、制定を行う。"
+    goal_serve: "新規参入者にとって目的となる組織として行動する。"
+    goal_educate: "カルダノ・コミュニティーの統合、<br>教育、そして成長促進を行う。"
+    partnership_structure: カルダノ財団パートナー
     structure_gaming: カルダーノゲーミンググループ
     structure_gaming_desc: ゲーム開発とホワイトラベルソリューションパートナー
     structure_io: Input Output
     structure_io_desc: プロトコルの開発パートナー
     structure_attain: Attain Corporation
     structure_attain_desc: 排他的取引パートナー
-    becoming_partner: パートナーになるでチェック！
-    executive_team: エグゼクティブチーム
+    becoming_partner: パートナーなる
+    executive_team: 理事長、並びに特別顧問のご紹介 
+    special_adviser: 特別顧問
 
