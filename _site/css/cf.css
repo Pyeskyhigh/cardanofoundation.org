@@ -118,6 +118,9 @@ body{ font-weight: 300}
 #team .item h4{font-size:116%;margin:0}
 
 #team .item .social_icons a{width:35px;height:35px;vertical-align:middle;-moz-border-radius: 40px;-webkit-border-radius: 40px;border-radius:40px;line-height:30px}
+@media (max-width: 768px) {
+#team .item img{width:75% !important;height:auto !important}
+}
 @media (max-width: 400px) {
 #team .item img{width:100%;height:auto}
 }
