@@ -111,6 +111,7 @@ body{ font-weight: 300}
 
 #structure .branches hr{width:7px;border-top:2px solid #234243;margin:15px auto 10px auto}
 
+#team .item {margin-bottom: 40px}
 #team .item img{border:1px solid #1B7786}
 #team .item .sm{margin:15px 0 10px 0;width:50px}
 #team .item h2{margin:20px 0 5px 0}
@@ -118,6 +119,9 @@ body{ font-weight: 300}
 #team .item h4{font-size:116%;margin:0}
 
 #team .item .social_icons a{width:35px;height:35px;vertical-align:middle;-moz-border-radius: 40px;-webkit-border-radius: 40px;border-radius:40px;line-height:30px}
+@media (max-width: 768px) {
+#team .item img{width:75% !important;height:auto !important}
+}
 @media (max-width: 400px) {
 #team .item img{width:100%;height:auto}
 }
