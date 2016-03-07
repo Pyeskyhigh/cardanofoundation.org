@@ -100,8 +100,8 @@ body{ font-weight: 300}
 
 @media (min-width: 768px) {
 #structure .tree .branch{border:1px solid #234243;border-bottom:0;margin:25px 0 0 0;width:144px;height:70px;display:inline-block}
-#structure .tree .branch.left{border-right:0}
-#structure .tree .branch.right{border-left:0}
+#structure .tree .branch.left{border-right:0;margin:25px -15px 0 15px}
+#structure .tree .branch.right{border-left:0;margin:25px 15px 0 -15px}
 #structure .branches .branch{border-right:1px solid #234243;margin:-25px 0 0 0;width:1px;height:50px;display:inline-block}
 }
 @media (max-width: 768px) {
