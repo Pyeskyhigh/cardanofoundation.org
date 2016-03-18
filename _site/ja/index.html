@@ -38,7 +38,7 @@ var pageslug = 'home';
 </script>
 
 <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
-<link rel="stylesheet" href="/css/app.css" type="text/css" media="all" />
+<link rel="stylesheet" href="/css/app2.css" type="text/css" media="all" />
 <link rel="stylesheet" href="/css/base.css" type="text/css" media="all" />
 <link rel="stylesheet" href="/css/flexslider.css" type="text/css" media="all" />
 <link rel="stylesheet" href="/css/cf.css" type="text/css" media="all" />
@@ -69,12 +69,23 @@ var pageslug = 'home';
 
   <body>
 
-    <div id="page" class="home">
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-75265043-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<div id="page" class="home">
   <header class="header">        
     <div id="navbar" class="navbar navbar-top navbar-default  border0" role="navigation">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12 col-md-12 text-center">
+          <div class="col-lg-24 col-md-24 text-center">
 
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navhider" aria-expanded="false">
@@ -123,14 +134,14 @@ var pageslug = 'home';
     <section id="welcome" class="section">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12 col-md-12 text-center">
+          <div class="col-lg-24 col-md-24 text-center">
             <div class="row">
-              <div class="col-lg-10 col-lg-offset-1 col-md-12">
+              <div class="col-lg-20 col-lg-offset-2 col-md-24">
                 <br><br>
                 <h1>カルダノ財団</h1>
 
                 
-                <h3>暗号通貨、ブロッチェーン、そしてその先へ</h3>
+                <h3>暗号通貨、ブロックチェーン、そしてその先へ</h3>
                 
 
                 <!--<h2 class="">エイダの販売の第二トランシェが始まりました。あなたの詳細については、販売代理店を達成しご連絡ください。</h2>-->
@@ -162,9 +173,9 @@ var pageslug = 'home';
       <section id="about" class="section">
         <div class="container">
           <div class="row">
-            <div class="col-lg-12 col-md-12 text-center">
+            <div class="col-lg-24 col-md-24 text-center">
               <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
+                <div class="col-lg-20 col-lg-offset-2 col-md-20 col-md-offset-2">
 
                   <h2 class="uppercase title">財団について</h2>
                   <hr class="sm" />
@@ -173,13 +184,11 @@ var pageslug = 'home';
 
 
                 
-             
-                  カルダノ財団は2015年に設立された、マン島に拠点を置く財団です。
-財団は、カルダノ・エコシステム、それに関連する多くのプロトコル、プロジェクトや規制などを監督、教育する団体であることを目標とし、またカルダノ・コミュニティーの集約、さらなる協力に寄与する団体を目指します。 
+カルダノ・エコシステム、それに関連する多くのプロトコル、プロジェクトや規制などを監督、教育する団体であることを
+目的とし、またカルダノ・コミュニティーの集約、そしてさらなる発展に寄与する団体を目指します。 <br>
 
-
-カルダノコミュニティーと様々なビジネス・セクターとの間に架け橋を築く事、それが私たちの長期的な目標です。
-
+カルダノ・コミュニティーと様々なビジネス・セクターとの間に架け橋を築く事、
+それが私たちの長期的な目標です。
                 
 
 
@@ -195,32 +204,17 @@ var pageslug = 'home';
       <section id="news" class="section">
         <div class="container">
           <div class="row">
-            <div class="col-lg-12 col-md-12 text-center ">
+            <div class="col-lg-24 col-md-24 text-center ">
 
               <h2 class=" title">財団からのニュースを受け取る</h2>
 
               <div class="row">
                 <br>
-                <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3">
+                <div class="col-md-8 col-md-offset-8 col-sm-12 col-sm-offset-6">
 
-                  <form action=""  class="sendpress-signup" method="post">
-                    <input type="hidden" name="nr" value="widget"/>
-                    <input type="hidden" name="sp_list" id="" class="sp_list" value="51" />
+                  <iframe src="/newsletter/ja/" border="0" style="border:0;" allowtransparency="true" width="100%"></iframe>
 
-                    <div class="exists" style="display:none;">You've already signed up, Thanks!</div>
-                    <div class="error"></div>
-                    <div class="thanks" style="display:none;">Check your inbox now to confirm your subscription.</div>
-                    <div class="form-wrap">
-                      <div class="input-group">
-                          <input placeholder="your@email.com"  class="sp_email form-control" type="email" required name="sp_email" value="">
-                          <span class="input-group-btn">
-                              <button class="btn btn-default" type="submit">登録する <img class="ajaxloader" style="display:none;"  src="/images/ajax-loader.gif" /></button>
-                          </span>
-                      </div><!-- /input-group -->
-                    </div>
-                  </form>
-
-                </div><!-- /.col-lg-6 -->
+                </div><!-- /.col-lg-12 -->
               </div><!-- /.row -->
             </div>
           </div>
@@ -232,32 +226,32 @@ var pageslug = 'home';
       <section id="features" class="section">
         <div class="container">
           <div class="row">
-            <div class="col-lg-12 col-md-12 text-center">
+            <div class="col-lg-24 col-md-24 text-center">
 
               <h2 class="uppercase title">活動目的</h2>
               <hr class="sm" />
 
               <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-6 feature">
+                <div class="col-lg-10 col-lg-offset-2 col-sm-12 feature">
                     <img src="/images/ic_globe.jpg" width="65" height="65" />
                     <p class="bold">カルダノ・エコシステムの保護、<br>促進、発展に参与する。</p>
                 </div>
-                <div class="col-lg-5 col-sm-6 feature">
+                <div class="col-lg-10 col-sm-12 feature">
                     <img src="/images/ic_logo.jpg" width="65" height="65" />
                     <p class="bold">暗号通貨の一つの標準となる。</p>
                 </div>
               </div>
 
               <div class="row">
-                <div class="col-lg-4 col-sm-4 feature">
+                <div class="col-lg-8 col-sm-8 feature">
                     <img src="/images/ic_study.gif" width="65" height="65" />
                     <p class="bold">暗号通貨に関連する規制の調査、<br>定義、制定を行う。</p>
                 </div>
-                <div class="col-lg-4 col-sm-4 feature">
+                <div class="col-lg-8 col-sm-8 feature">
                     <img src="/images/ic_serve.gif" width="65" height="65" />
-                    <p class="bold">新規参入者にとって目的となる組織として行動する。</p>
+                    <p class="bold">新規参入者の目標にふさわしい組織として行動する。</p>
                 </div>
-                <div class="col-lg-4 col-sm-4 feature">
+                <div class="col-lg-8 col-sm-8 feature">
                     <img src="/images/ic_bulb.gif" width="65" height="65" />
                     <p class="bold">カルダノ・コミュニティーの統合、<br>教育、そして成長促進を行う。</p>
                 </div>
@@ -272,9 +266,9 @@ var pageslug = 'home';
       <section id="structure" class="section">
         <div class="container">
           <div class="row">
-            <div class="col-lg-12 col-md-12 text-center">
+            <div class="col-lg-24 col-md-24 text-center">
               <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="col-lg-16 col-lg-offset-4 col-md-20 col-md-offset-2">
 
                   <h2 class="uppercase title">カルダノ財団パートナー</h2>
                   <hr class="sm" />
@@ -287,14 +281,14 @@ var pageslug = 'home';
 
                   <div class="row branches">
 
-                    <div class="col-sm-4">
+                    <div class="col-sm-9">
                       <img src="/images/ic_logo_2.gif" width="70" height="70" />
                       <h3>Cardano Gaming Group</h3>
 
                       <!--<p>ゲーム開発とホワイトラベルソリューションパートナー</p>-->
                     </div>
                     
-                    <div class="col-sm-4">
+                    <div class="col-sm-6">
                       <div class="branch"></div>
                       <br />
                       <img src="/images/ic_iohk.gif" width="125" height="90" />
@@ -303,17 +297,25 @@ var pageslug = 'home';
                       <!--<p>プロトコルの開発パートナー</p>-->
                     </div>
 
-                    <div class="col-sm-4">
+                    <div class="col-sm-9 col-attain">
                       <img src="/images/ic_shield.gif" width="70" height="70" />
 
-                      <h3>Attain Corporation</h3>
+                      <h3>Attain Corporation  <br>
+株式会社アテインコーポレーション
+                </h3>
                       <!--<p>排他的取引パートナー</p>-->
+
+
+
+
+               
+
                     </div>
                   </div>
 
                   <br><br>
-                  <p class="bigger light">パートナーなる</p>
-                  <a href="/#contact" class="btn btn-default btn-sm uppercase c_fff bg_trans">&nbsp; &nbsp; お問い合わせ &nbsp; &nbsp;</a><br><br>
+                  <p class="bigger light">カルダノ財団のパートナーになりませんか？</p>
+                  <a href="/#contact" class="btn btn-default btn-sm uppercase c_fff bg_trans">&nbsp; &nbsp; お問い合わせフォーム &nbsp; &nbsp;</a><br><br>
 
                 </div>
               </div>
@@ -327,17 +329,17 @@ var pageslug = 'home';
       <section id="team" class="section">
         <div class="container">
           <div class="row">
-            <div class="col-lg-12 col-md-12 text-center">
+            <div class="col-lg-24 col-md-24 text-center">
 
-              <h2 class="uppercase title">理事長、並びに特別顧問のご紹介</h2>
+              <h2 class="uppercase title">理事長、並びに特別顧問の紹介</h2>
               <hr class="sm" />
               
       <div class="item member active">
           <div class="row">
-              <div class="col-lg-3 col-lg-offset-2 col-md-3">
+              <div class="col-lg-6 col-lg-offset-4 col-md-6">
                   <img src="/images/team/Parsons.jpg" width="350" height="350" class="img-circle fullwidth" />
               </div>
-              <div class="col-lg-6 col-md-9 text-left">
+              <div class="col-lg-12 col-md-18 text-left">
                   <h2 class="uppercase">MICHAEL PARSONS - FCA 理事長</h2>
                   <h4 class="uppercase big bold">会長</h4>
                   <div class="social_icons">
@@ -348,9 +350,7 @@ var pageslug = 'home';
 
 					
 
-					<p>Michael Parsonsはイギリスの公認会計士であり、イギリスのデジタル通貨協会の創立メンバーです。また同時に、ブロックチェーン・テクノロジー、デジタル通貨アドバイザーとして広く認知されている、起業家、プレゼンテーターです。</p>
-
-<p>KPMG・モスクワ、プライスウォーターハウスクーパース・ロンドンでバンキング・コンサルタント、ドバイでの銀行創立などを含む金融業界での25年に及ぶ経験が、フィナンシャルサービスや様々なエリアで活躍が期待されるブロックチェーンの取引台帳、暗号通貨アプリケーションなどに関する彼独自の見解を生み出しています。</p>
+					<p>Michael Parsonsはイギリスの公認会計士(FCA)であり、イギリスに拠点を持つデジタル通貨協会(UK DCA)の創立メンバーです。また同時に、ブロックチェーン・テクノロジー、デジタル通貨に関しアドバイザーとして広く認知されている起業家、そしてプレゼンテーターです。KPMG・モスクワ、プライスウォーターハウスクーパース・ロンドンでバンキング・コンサルタント、ドバイでの銀行創立など、金融業界での25年にも及ぶ経験が、フィナンシャルサービスや様々なエリアで活躍が期待されるブロックチェーンの取引台帳、暗号通貨アプリケーションなどに関する彼独自の見解を生み出しています。</p>
 
 					
 
@@ -360,10 +360,10 @@ var pageslug = 'home';
   
       <div class="item member ">
           <div class="row">
-              <div class="col-lg-3 col-lg-offset-2 col-md-3">
+              <div class="col-lg-6 col-lg-offset-4 col-md-6">
                   <img src="/images/team/Milligan.jpg" width="350" height="350" class="img-circle fullwidth" />
               </div>
-              <div class="col-lg-6 col-md-9 text-left">
+              <div class="col-lg-12 col-md-18 text-left">
                   <h2 class="uppercase">Bruce Milligan - 特別顧問</h2>
                   <h4 class="uppercase big bold">特別顧問</h4>
                   <div class="social_icons">
@@ -374,13 +374,8 @@ var pageslug = 'home';
 					
 
 
-<p>
 
-プロジェクトマネジメントに特化したフィンテックコンサルタントであり、自身が持つテクノロジー・コンサルティング会社の代表を務めている。最近の10年間はロンドンに拠点を置き、ロイヤルバンク・オブ・スコットランド、エービーエヌ・アムロ、トムソン・ロイターを始めとする大手ファイナンシャルサービスクライアントに対し、テクノロジーソリューションを提供した。
-
-
-またKYC/アンチ・マネー・ロンダリングシステムのデザイン、オンライン・コーポレートバング用に不正防止プラットフォームを構築、トムソン・ロイターのグロバール・ネットワークインフラのアップグレードなど、多くのプロジェクトに参加してきました。</p>
-				
+<p>Bruce Milliganはプロジェクトマネジメントに特化したフィンテック・コンサルタントであり、自身のテクノロジー・コンサルティング会社の代表を務めています。最近の10年間では、ロンドンに拠点を置き、ロイヤルバンク・オブ・スコットランド、エービーエヌ・アムロ、トムソン・ロイターを始めとするファイナンシャルサービスを扱う大手のクライアントに対し、テクノロジー・ソリューションを提供してきました。また身元確認/反資金洗浄のためのシステムデザイン、オンライン・コーポレートバンキング用の不正防止プラットフォームの開発や、トムソン・ロイターのグローバル・ネットワークインフラのアップグレードなど、多くのプロジェクトに参加してきました。    </p>	
 					
 
               </div>
@@ -389,10 +384,10 @@ var pageslug = 'home';
   
       <div class="item member ">
           <div class="row">
-              <div class="col-lg-3 col-lg-offset-2 col-md-3">
+              <div class="col-lg-6 col-lg-offset-4 col-md-6">
                   <img src="/images/team/Maguire.jpg" width="350" height="350" class="img-circle fullwidth" />
               </div>
-              <div class="col-lg-6 col-md-9 text-left">
+              <div class="col-lg-12 col-md-18 text-left">
                   <h2 class="uppercase">John Maguire -  特別顧問</h2>
                   <h4 class="uppercase big bold">特別顧問</h4>
                   <div class="social_icons">
@@ -402,13 +397,7 @@ var pageslug = 'home';
 
 					
 
-
-<p>Johnは公認会計士として、公務職・民間企業ともに取締役クラスを歴任。
-また保険、コモディティ売買、鉱業、不動産などのビジネス業界においても、経営管理、企業書記、年金や投資信託の社外取締役などの上級役職を経験。
-
-イギリス国内で自身の企業を立ち上げ経営する一方、ロシアや西アフリカなどの新興国において企業の経営課題、またベンチャー企業や証券取引、ファンドレイジングなどを始めとする事業展開にも取り組んできました。</p>
-        
-
+<p>John Maguireは公認会計士として、これまでに公務職・民間企業ともに取締役クラスを歴任してきました。また保険、コモディティ売買、鉱業、不動産などの業界においては、経営管理、企業書記、年金や投資信託の社外取締役などの上級役職を経験しており、イギリス国内で自身の企業を立ち上げ経営する一方で、ロシアや西アフリカなどの新興国において企業の経営課題、またベンチャー企業や証券取引、ファンドレイジングなどを始めとする事業展開にも取り組んできました。</p>
 				
 					
 
@@ -427,14 +416,14 @@ var pageslug = 'home';
       <section id="contact" class="section">
         <div class="container">
           <div class="row">
-            <div class="col-lg-12 col-md-12 ">
+            <div class="col-lg-24 col-md-24 ">
               <div class="map_label">
                 <div class="row">
-                  <div class="col-lg-6">
+                  <div class="col-lg-12">
                     <h4 class="uppercase">所在地</h4>
                     First Floor, Millennium House, <br>Victoria Road, Douglas, <br>Isle of Man, IM2 4RW  <br> <br>
                   </div>
-                  <div class="col-lg-6">
+                  <div class="col-lg-12">
                     <h4 class="uppercase">連絡先</h4>
                     <a href="#">info@cardanofoundation.org</a>
                   </div>
@@ -454,31 +443,22 @@ var pageslug = 'home';
     <section id="footer" class="section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 col-md-12">
+                <div class="col-lg-24 col-md-24">
                     <div class="row">
-                        <div class="col-lg-6 col-sm-6">
+                        <div class="col-lg-12 col-sm-12">
                             <img src="/images/foot_logo.gif" width="" height="" class="" />
                         </div>
-                        <div class="col-lg-3 col-lg-offset-3 col-sm-6">
+                        <div class="col-lg-6 col-lg-offset-6 col-sm-12">
                             <h4>ニュースレター</h4>
                             <p>ニュースレターに登録し、財団に関する最新情報を受け取る。</p>
 
-                            <form action=""  class="sendpress-signup" method="post">
-                                <div class="exists" style="display:none;">You've already signed up, Thanks!</div>
-                                <div class="error"></div>
-                                <div class="thanks" style="display:none;">Check your inbox now to confirm your subscription.</div>
-                                <div class="form-wrap">
-                                    <div class="input-group">
-                                        <input placeholder="your@email.com"  class="sp_email form-control" type="email" required name="sp_email" value="">
-                                        <span class="input-group-btn">
-                                            <button class="btn btn-default" type="submit">
-                                                <em class="fa  fa-paper-plane"></em>
-                                                <img class="ajaxloader" style="display:none;"  src="/images/ajax-loader.gif" />
-                                            </button>
-                                        </span>
-                                    </div><!-- /input-group -->
-                                </div>
-                            </form>
+
+                            <iframe src="/newsletter/ja/" border="0" style="border:0;" allowtransparency="true" width="100%"></iframe>
+
+
+
+
+
 
 
 
@@ -493,7 +473,7 @@ var pageslug = 'home';
         <footer>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12 col-md-12">
+                    <div class="col-lg-24 col-md-24">
                         <hr>
                         <div class="info small uppercase pull-right">
                             <div class="social_icons none">
@@ -510,12 +490,21 @@ var pageslug = 'home';
                     
 
 
+
+
+
                             <small>
-                            カルダノ財団は『The Foundations Act 2011 of the Isle of Man』に基づき 登録番号 000076Mとして2015年9月25日に設立されました。 <br>
-                            The registered agent of the Cardano Foundation is: ILS Fiduciaries (IOM) Limited, First Floor, Millennium House, Victoria Road, Douglas, Isle of Man, IM2 4RW<br>
+                        
+カルダノ財団は『The Foundations Act 2011 of the Isle of Man』に基づき<br>
+登録番号 000076Mとして2015年9月25日に設立されました。<br>
+
+カルダノ財団の登録代理人: ILS Fiduciaries (IOM) Limited<br>
+First Floor, Millennium House, Victoria Road, Douglas, Isle of Man, IM2 4RW
+
+<br>
                             </small>
                             <br>
-                            <span class="uppercase">&copy;2016 Cardano Foundation <br/>全著作権所有</span></p>
+                            <span class="uppercase">&copy;2016 Cardano Foundation <br/>ALL RIGHTS RESERVED</span></p>
 
 
                 

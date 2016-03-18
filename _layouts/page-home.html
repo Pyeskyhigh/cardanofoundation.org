@@ -15,9 +15,9 @@ layout: page-home
       <section id="about" class="section">
         <div class="container">
           <div class="row">
-            <div class="col-lg-12 col-md-12 text-center">
+            <div class="col-lg-24 col-md-24 text-center">
               <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
+                <div class="col-lg-20 col-lg-offset-2 col-md-20 col-md-offset-2">
 
                   <h2 class="uppercase title">{{ site.data.i18n[page.language].about_us }}</h2>
                   <hr class="sm" />
@@ -26,13 +26,11 @@ layout: page-home
 
 
                 {% if page.language == 'ja' %}
-             
-                  カルダノ財団は2015年に設立された、マン島に拠点を置く財団です。
-財団は、カルダノ・エコシステム、それに関連する多くのプロトコル、プロジェクトや規制などを監督、教育する団体であることを目標とし、またカルダノ・コミュニティーの集約、さらなる協力に寄与する団体を目指します。 
+カルダノ・エコシステム、それに関連する多くのプロトコル、プロジェクトや規制などを監督、教育する団体であることを
+目的とし、またカルダノ・コミュニティーの集約、そしてさらなる発展に寄与する団体を目指します。 <br>
 
-
-カルダノコミュニティーと様々なビジネス・セクターとの間に架け橋を築く事、それが私たちの長期的な目標です。
-
+カルダノ・コミュニティーと様々なビジネス・セクターとの間に架け橋を築く事、
+それが私たちの長期的な目標です。
                 {% else %}
                 
 Cardano Foundation is an Isle of Man based organisation established in 2015.
@@ -57,32 +55,17 @@ Our long-term vision is to build bridges between the Cardano community and diver
       <section id="news" class="section">
         <div class="container">
           <div class="row">
-            <div class="col-lg-12 col-md-12 text-center ">
+            <div class="col-lg-24 col-md-24 text-center ">
 
               <h2 class=" title">{{ site.data.i18n[page.language].subscribe_to_nl }}</h2>
 
               <div class="row">
                 <br>
-                <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3">
+                <div class="col-md-8 col-md-offset-8 col-sm-12 col-sm-offset-6">
 
-                  <form action=""  class="sendpress-signup" method="post">
-                    <input type="hidden" name="nr" value="widget"/>
-                    <input type="hidden" name="sp_list" id="" class="sp_list" value="51" />
+                  <iframe src="/newsletter/{% if page.language != 'en' %}{{ page.language }}/{% endif %}" border="0" style="border:0;" allowtransparency="true" width="100%"></iframe>
 
-                    <div class="exists" style="display:none;">You've already signed up, Thanks!</div>
-                    <div class="error"></div>
-                    <div class="thanks" style="display:none;">Check your inbox now to confirm your subscription.</div>
-                    <div class="form-wrap">
-                      <div class="input-group">
-                          <input placeholder="your@email.com"  class="sp_email form-control" type="email" required name="sp_email" value="">
-                          <span class="input-group-btn">
-                              <button class="btn btn-default" type="submit">{{ site.data.i18n[page.language].subscribe }} <img class="ajaxloader" style="display:none;"  src="{{ '/images/ajax-loader.gif' | prepend: site.baseurl }}" /></button>
-                          </span>
-                      </div><!-- /input-group -->
-                    </div>
-                  </form>
-
-                </div><!-- /.col-lg-6 -->
+                </div><!-- /.col-lg-12 -->
               </div><!-- /.row -->
             </div>
           </div>
@@ -94,32 +77,32 @@ Our long-term vision is to build bridges between the Cardano community and diver
       <section id="features" class="section">
         <div class="container">
           <div class="row">
-            <div class="col-lg-12 col-md-12 text-center">
+            <div class="col-lg-24 col-md-24 text-center">
 
               <h2 class="uppercase title">{{ site.data.i18n[page.language].goals }}</h2>
               <hr class="sm" />
 
               <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-6 feature">
+                <div class="col-lg-10 col-lg-offset-2 col-sm-12 feature">
                     <img src="{{ '/images/ic_globe.jpg' | prepend: site.baseurl }}" width="65" height="65" />
                     <p class="bold">{{ site.data.i18n[page.language].goal_protect }}</p>
                 </div>
-                <div class="col-lg-5 col-sm-6 feature">
+                <div class="col-lg-10 col-sm-12 feature">
                     <img src="{{ '/images/ic_logo.jpg' | prepend: site.baseurl }}" width="65" height="65" />
                     <p class="bold">{{ site.data.i18n[page.language].goal_act }}</p>
                 </div>
               </div>
 
               <div class="row">
-                <div class="col-lg-4 col-sm-4 feature">
+                <div class="col-lg-8 col-sm-8 feature">
                     <img src="{{ '/images/ic_study.gif' | prepend: site.baseurl }}" width="65" height="65" />
                     <p class="bold">{{ site.data.i18n[page.language].goal_study }}</p>
                 </div>
-                <div class="col-lg-4 col-sm-4 feature">
+                <div class="col-lg-8 col-sm-8 feature">
                     <img src="{{ '/images/ic_serve.gif' | prepend: site.baseurl }}" width="65" height="65" />
                     <p class="bold">{{ site.data.i18n[page.language].goal_serve }}</p>
                 </div>
-                <div class="col-lg-4 col-sm-4 feature">
+                <div class="col-lg-8 col-sm-8 feature">
                     <img src="{{ '/images/ic_bulb.gif' | prepend: site.baseurl }}" width="65" height="65" />
                     <p class="bold">{{ site.data.i18n[page.language].goal_educate }}</p>
                 </div>
@@ -134,9 +117,9 @@ Our long-term vision is to build bridges between the Cardano community and diver
       <section id="structure" class="section">
         <div class="container">
           <div class="row">
-            <div class="col-lg-12 col-md-12 text-center">
+            <div class="col-lg-24 col-md-24 text-center">
               <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="col-lg-16 col-lg-offset-4 col-md-20 col-md-offset-2">
 
                   <h2 class="uppercase title">{{ site.data.i18n[page.language].partnership_structure }}</h2>
                   <hr class="sm" />
@@ -149,14 +132,14 @@ Our long-term vision is to build bridges between the Cardano community and diver
 
                   <div class="row branches">
 
-                    <div class="col-sm-4">
+                    <div class="col-sm-9">
                       <img src="{{ '/images/ic_logo_2.gif' | prepend: site.baseurl }}" width="70" height="70" />
                       <h3>Cardano Gaming Group</h3>
 
                       <!--<p>{{ site.data.i18n[page.language].structure_gaming_desc }}</p>-->
                     </div>
                     
-                    <div class="col-sm-4">
+                    <div class="col-sm-6">
                       <div class="branch"></div>
                       <br />
                       <img src="{{ '/images/ic_iohk.gif' | prepend: site.baseurl }}" width="125" height="90" />
@@ -165,11 +148,19 @@ Our long-term vision is to build bridges between the Cardano community and diver
                       <!--<p>{{ site.data.i18n[page.language].structure_io_desc }}</p>-->
                     </div>
 
-                    <div class="col-sm-4">
+                    <div class="col-sm-9 col-attain">
                       <img src="{{ '/images/ic_shield.gif' | prepend: site.baseurl }}" width="70" height="70" />
 
-                      <h3>Attain Corporation</h3>
+                      <h3>Attain Corporation  {% if page.language == 'ja' %}<br>
+株式会社アテインコーポレーション
+                {% endif %}</h3>
                       <!--<p>{{ site.data.i18n[page.language].structure_attain_desc }}</p>-->
+
+
+
+
+               
+
                     </div>
                   </div>
 
@@ -189,7 +180,7 @@ Our long-term vision is to build bridges between the Cardano community and diver
       <section id="team" class="section">
         <div class="container">
           <div class="row">
-            <div class="col-lg-12 col-md-12 text-center">
+            <div class="col-lg-24 col-md-24 text-center">
 
               <h2 class="uppercase title">{{ site.data.i18n[page.language].executive_team }}</h2>
               <hr class="sm" />
@@ -205,14 +196,14 @@ Our long-term vision is to build bridges between the Cardano community and diver
       <section id="contact" class="section">
         <div class="container">
           <div class="row">
-            <div class="col-lg-12 col-md-12 ">
+            <div class="col-lg-24 col-md-24 ">
               <div class="map_label">
                 <div class="row">
-                  <div class="col-lg-6">
+                  <div class="col-lg-12">
                     <h4 class="uppercase">{{ site.data.i18n[page.language].visit_us }}</h4>
                     First Floor, Millennium House, <br>Victoria Road, Douglas, <br>Isle of Man, IM2 4RW  <br> <br>
                   </div>
-                  <div class="col-lg-6">
+                  <div class="col-lg-12">
                     <h4 class="uppercase">{{ site.data.i18n[page.language].contact }}</h4>
                     <a href="#">info@cardanofoundation.org</a>
                   </div>
