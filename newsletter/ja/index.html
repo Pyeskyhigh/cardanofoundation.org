@@ -76,6 +76,21 @@ var pageslug = 'newsletter';
 
                                
                                     <div class="input-group">
+                                        <span class="input-group-addon" id=""><em class="fa fa-globe"></em></span>
+                                        <select name="MMERGE3" id="mce-MMERGE3" class="form-control">
+                                            <option value="English">English</option>
+                                            <option value="Japanese">Japanese</option>
+                                            <option value="Chinese">Chinese</option>
+                                            <option value="Russian">Russian</option>
+                                            <option value="" disabled="disabled">---</option>
+                                            <option value="Hindi">Hindi</option>
+                                            <option value="Vietnamese">Vietnamese</option>
+                                            <option value="Korean">Korean</option>
+                                            <option value="Arabic">Arabic</option>
+                                        </select>
+                                    </div>
+                                    
+                                    <div class="input-group">
                                         <input type="email" value="" name="EMAIL" placeholder="your@email.com" class="required form-control" id="mce-EMAIL">
                                         <span class="input-group-btn">
                                             <input type="submit" value="登録する" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default" />
@@ -90,12 +105,17 @@ var pageslug = 'newsletter';
 
                                 </div>
                             </form>
-                        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-                        <!--End mc_embed_signup-->
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[3]='MMERGE3';ftypes[3]='dropdown';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+
+
+
+
+
+
 
 
 <style>
-
+.input-group{margin-bottom: 10px}
 html,body{background: transparent;}
 </style>
 
