@@ -1,0 +1,7 @@
+
+                <ul id="menu-top" class="nav navbar-nav navbar-right uppercase">
+                  <li class="home active"><a title="Home" href="{{ site.baseurl }}/{% if page.language != 'en' %}{{ page.language }}/{% endif %}">{{ site.data.i18n[page.language].home }}</a></li>
+                  <!--<li class="news"><a title="News" href="{{ site.baseurl }}/news/{% if page.language != 'en' %}{{ page.language }}/{% endif %}">{{ site.data.i18n[page.language].news }}</a></li>-->
+                  <li class="about"><a title="About" href="{{ site.baseurl }}/{% if page.language != 'en' %}{{ page.language }}/{% endif %}#about">{{ site.data.i18n[page.language].about }}</a></li>
+                  <li class="contact"><a title="Contact" href="{{ site.baseurl }}/{% if page.language != 'en' %}{{ page.language }}/{% endif %}#contact">{{ site.data.i18n[page.language].contact }}</a></li>
+                </ul>
