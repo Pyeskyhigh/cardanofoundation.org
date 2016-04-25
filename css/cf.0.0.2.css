@@ -12,7 +12,7 @@ body{ font-weight: 300}
 .social_icons a.gplus{background:#BB0F16}
 .social_icons a.facebook{background:#3A579D}
 
-.dpp h4{font-size: 100%;}
+.dpp h4{font-size: 100%; letter-spacing: 1px}
 .dpp h4 a{text-decoration: none}
 .dpp ol{font-size: 77%;padding:0 0 0 13px}
 .dpp ol li{line-height: 1.2;margin:0 0 5px 0}
