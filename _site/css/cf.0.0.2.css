@@ -18,6 +18,10 @@ body{ font-weight: 300}
 .dpp ol li{line-height: 1.2;margin:0 0 5px 0}
 
 
+#policy_wrap{-webkit-transition: background .8s;-moz-transition: background .8s; -o-transition: background .8s; transition: background .8s;}
+#policy_wrap.flash{background:#FFF989;}
+
+
 @media (min-width:769px) {
 .header .lang_switch{position:relative;z-index: 99;float:right;padding-right:5px}
 }

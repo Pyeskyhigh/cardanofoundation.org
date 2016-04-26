@@ -11,15 +11,23 @@ if(lowerie){
 ;(function($) {
 	
 	$(window).resize(function(){
-		io_resize();
+
 	});
 
 	$(window).load(function(){
-		io_which_way();
+
 	});
 
 	$(document).ready(function() {
-		
+		if(window.location.hash == '#policy'){
+			$("#dpp_body").addClass('in');
+			setTimeout(function() {
+				$("#policy_wrap").addClass('flash');
+				setTimeout(function() {
+					$("#policy_wrap").removeClass('flash');
+				},1000);
+			},500);
+		}
 
 	});
 
