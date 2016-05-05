@@ -2,7 +2,7 @@ a{outline:none!important}
 a:focus{text-decoration:none;color:inherit}
 hr{clear:both;margin:10px 0}
 body{padding-top:0px}
-
+.italic{font-style: italic}
 .c_fff{color: #fff}
 .c_aaa{color: #aaa}
 .c_bbb{color: #bbb}
