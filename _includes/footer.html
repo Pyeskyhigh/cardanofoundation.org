@@ -71,6 +71,7 @@
                         <p class="small text-center c_555">
 
 
+                    {% if page.layout == 'page-home' %}
 
                     {% if page.language == 'ja' %}
 
@@ -89,7 +90,7 @@ First Floor, Millennium House, Victoria Road, Douglas, Isle of Man, IM2 4RW
 <br>
                             </small>
                             <br>
-                            <span class="uppercase">&copy;2016 Cardano Foundation <br/>ALL RIGHTS RESERVED</span></p>
+                            <span class="uppercase">&copy;2016 Cardano Foundation <br/>ALL RIGHTS RESERVED</span>
 
 
                 
@@ -100,13 +101,58 @@ First Floor, Millennium House, Victoria Road, Douglas, Isle of Man, IM2 4RW
                             The registered agent of the Cardano Foundation is: ILS Fiduciaries (IOM) Limited, First Floor, Millennium House, Victoria Road, Douglas, Isle of Man, IM2 4RW<br>
                             </small>
                             <br>
-                            <span class="uppercase">&copy;2016 Cardano Foundation <br/>ALL RIGHTS RESERVED</span></p>
+                            <span class="uppercase">&copy;2016 Cardano Foundation <br/>ALL RIGHTS RESERVED</span>
 
 
 
                     {% endif %}
 
 
+                
+                    {% else %}
+
+                    {% if page.language == 'ja' %}
+
+
+
+
+
+                            <small>
+                        
+カルダノ財団は『The Foundations Act 2011 of the Isle of Man』に基づき<br>
+登録番号 000076Mとして2015年9月25日に設立されました。<br>
+
+カルダノ財団の登録代理人: ILS Fiduciaries (IOM) Limited<br>
+First Floor, Millennium House, Victoria Road, Douglas, Isle of Man, IM2 4RW
+
+<br>
+                            </small>
+                            <br>
+                            <span class="uppercase">&copy;2016 Cardano Foundation <br/>ALL RIGHTS RESERVED</span>
+
+
+                
+                    {% else %}
+
+                            <small>
+                                Cardano Foundation was registered on 14 September 2016 in Switzerland.
+The registered office of Cardano Foundation is:
+Cardano Stiftung, Gubelstrasse 11, 6300 Zug, Switzerland.
+
+<br>
+                            </small>
+                            <br>
+                            <span class="uppercase">&copy;2016 Cardano Foundation <br/>ALL RIGHTS RESERVED</span>
+
+
+
+                    {% endif %}
+
+                       
+
+                    {% endif %}
+
+</p>
 
                     </div>
                 </div>

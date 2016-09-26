@@ -46,6 +46,7 @@ body{ font-weight: 300}
 }
 
 .header{background:url('images/top.jpg') center center;}
+.swiss .header{background:url('/images/top-swiss.jpg') center center;background-size:cover;}
 @media (max-width:1280px) {
 .header{background-size:cover;}
 }
@@ -90,7 +91,9 @@ body{ font-weight: 300}
 
 #news{background:url('images/bg_news.jpg') top center;background-size:cover}
 #structure{background:url('images/bg_structure.jpg') top center;background-size:cover}
+.swiss #structure{background:url('/images/bg_structure-swiss.jpg') top center;background-size:cover}
 #contact{background:url('images/cf_map.jpg') center;}
+.swiss #contact{background:url('/images/cf_map-swiss.jpg') center;}
 
 @media (min-width: 1900px) {
 #contact{background-size:cover;}
