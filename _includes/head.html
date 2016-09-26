@@ -19,6 +19,9 @@
 <meta property="og:description" content="{{ page.title }}" />
 <meta property="og:site_name" content="{{ page.title }}" />
 
+{% if page.layout == 'page-home-new' %}
+<meta name="robots" content="nofollow" />
+{% endif %}
 
 <script>(function(){document.documentElement.className='js'})();</script>
 <script>
