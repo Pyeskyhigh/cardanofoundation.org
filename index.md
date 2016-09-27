@@ -1,5 +1,5 @@
 ---
-layout: page-home
+layout: page-home-new
 title: home
 language: en
 permalink: /
