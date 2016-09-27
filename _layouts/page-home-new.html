@@ -26,11 +26,15 @@ layout: page-home-new
 
 
                 {% if page.language == 'ja' %}
+
+カルダノ財団は2016年にスイスのツークを拠点に非営利財団として設立しました。
+
 カルダノ・エコシステム、それに関連する多くのプロトコル、プロジェクトや規制などを監督、教育する団体であることを
 目的とし、またカルダノ・コミュニティーの集約、そしてさらなる発展に寄与する団体を目指します。 <br>
 
 カルダノ・コミュニティーと様々なビジネス・セクターとの間に架け橋を築く事、
 それが私たちの長期的な目標です。
+
                 {% else %}
                 
 Cardano Foundation is a Swiss registered nonprofit Foundation based in Zug and established in 2016. 
@@ -182,7 +186,15 @@ Our long-term vision is to build bridges between the Cardano community and diver
           <div class="row">
             <div class="col-lg-24 col-md-24 text-center">
 
-              <h2 class="uppercase title">Cardano Foundation Council Members &amp; Organisation</h2>
+              <h2 class="uppercase title">
+
+                {% if page.language == 'en' %}
+                Cardano Foundation Council Members &amp; Organisation
+                {% else %}
+                カルダノ財団理事員＆組織
+                {% endif %}
+
+              </h2>
               <hr class="sm" />
               {% include block-team-new.html %}
 
