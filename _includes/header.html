@@ -10,7 +10,7 @@
 </script>
 
 <div id="page" class="{{ page.slug }} {% if page.layout == 'page-home-new' %}swiss{% endif %}">
-  <header class="header">        
+  <header class="header">
     <div id="navbar" class="navbar navbar-top navbar-default  border0" role="navigation">
       <div class="container">
         <div class="row">
@@ -27,7 +27,7 @@
                   <img class="" src="{{ '/images/cardano-logo.png' | prepend: site.baseurl }}" width="385" height="" alt="{{ site.title }}" />
                 </a>
             </div>
-           
+
             <div id="navhider" class="collapse navbar-collapse ">
               {% include nav-main.html %}
             </div>
@@ -37,12 +37,12 @@
 
         <div class="lang_switch">
                 <a href="{{ site.baseurl }}{{ page.defaulturl }}" class="en" title="English">
-                <span class="none">English</span> 
+                <span class="none">English</span>
                 <img src="{{ site.baseurl }}/images/flags/en.png" width="19" height="14" alt="" />
                 </a>
 
                 <a href="{{ site.baseurl }}{{ page.defaulturl }}ja/" class="ja" title="日本語">
-                <span class="none">日本語</span> 
+                <span class="none">日本語</span>
                 <img src="{{ site.baseurl }}/images/flags/ja.png" width="19" height="14" alt="" />
                 </a>
         </div>
@@ -52,7 +52,7 @@
 
 
     {% if page.title == 'home' %}
-    
+
     <section id="welcome" class="section">
       <div class="container">
         <div class="row">
@@ -64,9 +64,7 @@
                 {% if page.language == 'ja' %}
 
                 <h3>
-カルダノ財団より、2016年7月1日に販売が予定されていた第3期ADAプレセールが短期間の延期となりましたことをお知らせいたします。
-<br><br>
-セールの開始日は、近日中に財団より発表いたします。</h3>
+</h3>
 
                 {% else %}
 
@@ -107,4 +105,3 @@
     {% endif %}
 
   </header>
-        
