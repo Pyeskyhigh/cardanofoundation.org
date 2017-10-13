@@ -279,6 +279,12 @@ a:hover, a:focus {
   color: #246dd3;
   text-decoration: underline; }
 
+.page-sidebar .page i.produce-text {
+  font-family: Rubik;
+  font-size: 17.0px;
+  font-weight: 400;
+  margin: 10px 0;
+  display: block; }
 .page-sidebar .page .post {
   background-color: #fff;
   padding: 70px 60px; }
@@ -308,6 +314,18 @@ a:hover, a:focus {
   @media (max-width: 415px) {
     .page-sidebar .page .post {
       padding: 70px 15px; } }
+.page-sidebar .page .alignright {
+  float: right;
+  margin: 0 0 .5em 1.2em; }
+.page-sidebar .page figure figcaption {
+  font-size: 69%;
+  text-align: center;
+  line-height: 1.3;
+  padding: 5px 0;
+  font-family: Rubik; }
+.page-sidebar .page ul li {
+  font-family: Rubik;
+  font-size: 17px; }
 
 .page.home h1 {
   color: #fffefe;
